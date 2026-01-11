@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calflora - Search for Plants</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Calflora</div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-right">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Calflora</a></li>
+                    <li><a href="contact.html">Contact Calflora</a></li>
+                    <li><a href="search.html" class="active">Search for Plants</a></li>
+                </ul>
+            </nav>
+            <div class="btn-box">
+                <a href="#" class="auth-btn" style="margin-left: 40px;">SIGN IN - REGISTER</a>
+                <a href="donate.html" class="auth-btn">Donate</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <div class="search-header">
+            <h2>Explore</h2>
+            <span>Calflora gives you many ways to explore the wild plants of California.</span>
+        </div>
+
+        <div class="search-form">
+            <div class="search-row">
+                <label class="green-label">Plant Name</label>
+                <input type="text" class="search-input" placeholder="scientific name">
+                <span class="or-text">or</span>
+                <input type="text" class="search-input">
+            </div>
+
+            <div class="search-grid">
+                <div class="search-grid-item">
+                    <label class="green-label">Plant Name</label>
+                    <div class="scroll-box-container">
+                        <div class="scroll-box">
+                            <div class="scroll-item"  style="color: #57A147;">any</div>
+                            <div class="scroll-item">Alameda</div>
+                            <div class="scroll-item">Alpine</div>
+                            <div class="scroll-item">Amador</div>
+                            <div class="scroll-item">Butte</div>
+                            <div class="scroll-item">Calaveras</div>
+                            <div class="scroll-item">Colusa</div>
+                            <div class="scroll-item">Contra Costa</div>
+                            <div class="scroll-item">Del Norte</div>
+                            <div class="scroll-item">El Dorado</div>
+                            <div class="scroll-item">Fresno</div>
+                            <div class="scroll-item">Glenn</div>
+                            <div class="scroll-item">Humboldt</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-grid-item">
+                    <label class="green-label">Native Status</label>
+                    <div class="checkbox-list">
+                        <label><input type="checkbox"> Native to California</label>
+                        <label><input type="checkbox"> CNPS rare plants</label>
+                        <label><input type="checkbox"> Not native to California</label>
+                        <label><input type="checkbox"> Affinity to serpentine soil</label>
+                        <label><input type="checkbox"> Cal-IPC invasive plants</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-grid">
+                <div class="search-grid-item">
+                    <label class="green-label">Plant Name</label>
+                    <div class="lifeform-grid">
+                        <label><input type="checkbox"> Grasslike</label>
+                        <label><input type="checkbox"> Liverwort</label>
+                        <label><input type="checkbox"> Tree</label>
+                        <label><input type="checkbox"> Shrub</label>
+                        <label><input type="checkbox"> Moss</label>
+                        <label><input type="checkbox"> Vine</label>
+                        <label><input type="checkbox"> Herb</label>
+                        <label><input type="checkbox"> Hornwort</label>
+                        <label><input type="checkbox"> Fern</label>
+                        <label><input type="checkbox"> Lichen</label>
+                    </div>
+                </div>
+                <div class="search-grid-item">
+                    <label class="green-label">Native Status</label>
+                    <div class="checkbox-list">
+                        <label><input type="checkbox"> Native to California</label>
+                        <label><input type="checkbox"> CNPS rare plants</label>
+                        <label><input type="checkbox"> Not native to California</label>
+                        <label><input type="checkbox"> Affinity to serpentine soil</label>
+                        <label><input type="checkbox"> Cal-IPC invasive plants</label>
+                    </div>
+                </div>
+            </div>
+            <div class="search-grid">
+                <div class="search-grid-item">
+                    <label class="green-label">Plant Name</label>
+                    <div class="scroll-box-container">
+                        <div class="scroll-box">
+                            <div class="scroll-item" style="color: #57A147;">any</div>
+                            <div class="scroll-item">Alkali Sink</div>
+                            <div class="scroll-item">Alpine Fell-fields</div>
+                            <div class="scroll-item">Bristle-cone Pine Forest</div>
+                            <div class="scroll-item">Chaparral</div>
+                            <div class="scroll-item">Closed-cone Pine Forest</div>
+                            <div class="scroll-item">Colusa</div>
+                            <div class="scroll-item">Contra Costa</div>
+                            <div class="scroll-item">Del Norte</div>
+                            <div class="scroll-item">El Dorado</div>
+                            <div class="scroll-item">Fresno</div>
+                            <div class="scroll-item">Glenn</div>
+                            <div class="scroll-item">Humboldt</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-grid">
+                <div class="search-grid-item">
+                    <label class="green-label elevation-label">
+                        Elevation
+                        <span>(meters)</span>
+                    </label>
+                    <div class="elevation-inputs">
+                        <span>Grasslike</span>
+                        <input type="text" class="small-input">
+                        <span>Grasslike</span>
+                        <input type="text" class="small-input">
+                    </div>
+                </div>
+                <div class="search-grid-item">
+                    <label class="green-label">Blooms During</label>
+                    <select class="search-select">
+                        <option>any month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="search-grid">
+                <div class="search-grid-item">
+                    <label class="green-label">Result Format</label>
+                    <select class="search-select">
+                        <option></option>
+                        <option>List</option>
+                        <option>Grid</option>
+                    </select>
+                </div>
+                <div class="search-grid-item">
+                    <label class="green-label">Order By</label>
+                    <select class="search-select">
+                        <option>scientific name</option>
+                        <option>common name</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <div class="footer-logo">
+                <h3>Calflora</h3>
+                <p>a 501c3 non-profit</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Calflora</a>
+                <a href="contact.html">Contact Calflora</a>
+                <a href="search.html">Search for Plants</a>
+                <a href="donate.html" class="footer-donate">Donate</a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="social-icons">
+                <div class="social-icon"><img src="./images/f1.png" alt=""></div>
+                <div class="social-icon"><img src="./images/f2.png" alt=""></div>
+                <div class="social-icon"><img src="./images/f3.png" alt=""></div>
+            </div>
+            
+            <div class="footer-bottom">
+                <span>A nonprofit database providing information on wild California plants</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
